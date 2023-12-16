@@ -2,12 +2,10 @@
 Get the amount of players on a world or on a server with SlapperPlayerCount!
 
 ## Updates
+
+**Important:** 3.2.0 brings support for [PocketMine-MP API 5](https://poggit.pmmp.io/ci/zsfell/SlapperPlayerCount/SlapperPlayerCount), dropping API 4 support. Check out the plugin by clicking [here](http://poggit.pmmp.io/p/WorldPlayerCount/)
 ### 3.2.0
 - Fix server player count NPC's not updating their name tag.
-- Cleanup the server query task code.
-
-**Important:** 3.0.0 brings support for [PocketMine-MP API 5](https://poggit.pmmp.io/ci/zsfell/SlapperPlayerCount/SlapperPlayerCount), dropping API 4 support. Check out the plugin by clicking [here](http://poggit.pmmp.io/p/WorldPlayerCount/)
-### 3.0.0
 - PocketMine-MP API v5 support (drops API 4).
 - Rewrites a large amount of code to de-bloat the main plugin class by keeping all data loading/saving in a separate utility class.
 - Removes automatic Slapper plugin installation.
